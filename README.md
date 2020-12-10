@@ -1,1 +1,8 @@
-# Myfirstgithubproject
+# Analysis on the best location to open a coffee cart business in Taipei, Taiwan
+If you want to open up your own business, what's the first thing that comes to your mind? Here's some suggestions: build an electric car brand that has state-of-art autonomous driving and battery technology, and by the way make some rockets that can perform off-shore landing, E-A-S-Y. Well...you and I probably just realized that we're not Elon, but there's still hope! Unlike a lot of businesses that require deep expertise and/or enourmous capital to kickstart, opening a coffee cart business needs neither. It only takes as little as $2500 to start your own coffee cart business!
+<br><br>
+<a href="https://ferlabikes.com/ferla-mini"><img src = "https://ferlabikes.com/wp-content/uploads/2019/05/ferla_mini_gallery_01.jpg" width = 450> </a> 
+<br><br>
+To operate a successful coffee cart business, you'll need to know **where you're customers are at**. Coffee has become a necessity for people in the modern era, and this is more so the case for office workers that are sleep-deprived. In this notebook, I'll utilize the dataset containing <a href="https://data.nat.gov.tw/comment/539679">in and out of station passenger number of each MRT(Mass Rapid Transit) station in the greater Taipei area</a>, and also the data from <a href="https://developer.foursquare.com/places">Foursqaure API calls</a> to **identify the best location(MRT station) to open a coffee cart business targeting office workers in Taipei, Taiwan**.
+<h1 align=Left><font size = 3>First Part: Using the MRT passenger flow data to categorize each station</font></h1>
+I use k-means clustering to cluster all MRT stations into 4 clusters, and found out that cluster 2 fits the characteristics of MRT stations that mainly serves office workers.
