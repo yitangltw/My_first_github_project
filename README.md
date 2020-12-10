@@ -11,6 +11,7 @@ The line plot above represents the number of passengers **exiting** each station
 <a href="https://github.com/yitangltw/My_first_github_project/blob/master/Images/cluster_2_enter.png"><img src = "https://github.com/yitangltw/My_first_github_project/blob/master/Images/cluster_2_enter.png" width = 700></a></br>
 From the line plot presenting number of passengers **entering** each station in cluster 2 we can see that it mirrors the previous graph during weekdays with a small peak in the morning and a big peak in the evening.</br><br>
 ***Second Part: Utilize the Foursquare API calls to find the best candidate station for a coffee cart business***</br><br>
+I utilized the foursquare API call to get the **number of coffee shops** by searching only the venues that are in the 'coffee shop' category. I set the radius of search to 300 meters(~1000 feet).
 <a href="https://github.com/yitangltw/My_first_github_project/blob/master/Images/cluster_comparison_regplot.png"><img src = "https://github.com/yitangltw/My_first_github_project/blob/master/Images/cluster_comparison_regplot.png" width = 1200></a></br>
 From the regplot above I confirmed that **stations in cluster 2 generally have more coffee shops per monthly passengers compared to other clusters**, indicating a need of coffee from office workers.
 There are 15 potential candidates from cluster 2, and the next step is to further narrow it down.</br>
